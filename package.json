@@ -1,12 +1,6 @@
 {
-  "name": "ng2-fundamentals-demo",
+  "name": "secui",
   "version": "1.0.0",
-  "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run server\" ",
-    "server": "node node_modules/ng2f-server/server.js",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w"
-  },
   "keywords": [],
   "author": "",
   "licenses": [
@@ -28,13 +22,11 @@
     "core-js": "2.4.1",
     "rxjs": "5.0.1",
     "zone.js": "0.8.4",
-    "ng2f-bootstrap": "^0.0.4"
-  },
-  "devDependencies": {
+    "ng2f-bootstrap": "^0.0.4",
     "concurrently": "3.2.0",
     "typescript": "2.1.1",
     "@types/core-js": "0.9.34",
-    "@types/node": "6.0.46"
+    "@types/node": "6.0.46"    
   },
   "repository": {}
 }
